@@ -134,26 +134,27 @@
   border-bottom: 2px solid #000;
 }
 
-.card__image-container-label { 
-  position: absolute; 
-  top: 25px; 
-  right: 25px; 
-  font-family: var(--accent-font, fantasy); 
-  font-size: 14px; 
-  line-height: 14px; 
-  text-shadow: -1px 0 var(--stroke-color, #000), 0 1px var(--stroke-color, #000), 1px 0 var(--stroke-color, #000), 0 -1px var(--stroke-color, #000); 
-  mix-blend-mode: hard-light; 
-  opacity: 0.5; 
+.card__image-container-label {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-family: var(--accent-font, fantasy);
+  font-size: 14px;
+  line-height: 14px;
+  text-shadow: -1px 0 var(--stroke-color, #000), 0 1px var(--stroke-color, #000),
+    1px 0 var(--stroke-color, #000), 0 -1px var(--stroke-color, #000);
+  mix-blend-mode: hard-light;
+  opacity: 0.5;
   z-index: 1;
-} 
+}
 
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) { 
-  .card__image-container-label { 
-    text-shadow: none; 
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+  .card__image-container-label {
+    text-shadow: none;
     text-stroke: 1px #fff;
-    -webkit-text-stroke: 1px #fff; 
-  } 
-} 
+    -webkit-text-stroke: 1px #fff;
+  }
+}
 
 .card-image {
   display: block;
