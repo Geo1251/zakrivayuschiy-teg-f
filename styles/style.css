@@ -34,6 +34,7 @@
   font-family: var(--accent-font, fantasy);
   font-size: 14px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .button:focus {
@@ -42,7 +43,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0px 0px #000;
-  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
@@ -185,6 +185,7 @@
   background-color: transparent;
   cursor: pointer;
   max-block-size: 38px;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -193,7 +194,6 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid #000;
-  transition: border 0.3s ease;
 }
 
 .card__like-button {
